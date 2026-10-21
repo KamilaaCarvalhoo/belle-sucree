@@ -8268,7 +8268,7 @@ img {
 
 }
 
-*/* Correcoes finais de responsividade Belle Sucree */*
+
 
 .hero-chocolate,
 
@@ -8820,7 +8820,7 @@ img {
 
 }
 
-/* Remove somente o doce decorativo flutuante do banner */
+
 .hero-chocolate,
 .choco-floating,
 .floating-chocolate,
@@ -8830,7 +8830,7 @@ img {
   transform: none !important;
 }
 
-/* Mantém a imagem principal do banner alinhada e responsiva */
+
 .hero-content {
   position: relative;
   z-index: 3;
