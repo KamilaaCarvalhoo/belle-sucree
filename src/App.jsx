@@ -175,7 +175,7 @@ export default function App() {
             <div className="hero-orbit orbit-one"></div><div className="hero-orbit orbit-two"></div>
             <div className="hero-sticker sticker-top">feito com<br />amor ♡</div>
             <div className="hero-sweet sweet-strawberry"><img src="/morango.png" alt="Morango doce" /></div>
-            <div className="hero-sweet sweet-chocolate"><img src="/chocolate.png" alt="Chocolate" /></div>
+  
             <div className="hero-sweet sweet-donut"><img src="/donut.png" alt="Donut" /></div>
             <div className="hero-sticker sticker-bottom">100%<br /><b>delícia!</b></div>
             <span className="art-sparkle sparkle-a">✦</span><span className="art-sparkle sparkle-b">✧</span><span className="art-sparkle sparkle-c">♡</span>

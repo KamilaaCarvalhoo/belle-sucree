@@ -4293,6 +4293,140 @@
 }
 
 
+@media (max-width: 600px) {
+  .choco-intro {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .choco-header,
+  .choco-footer {
+    gap: 12px;
+    padding: 16px 18px;
+  }
+
+  .choco-header-label {
+    flex: 1;
+    max-width: none;
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .choco-stage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    min-width: 0;
+    padding: 12px 20px 20px;
+  }
+
+  .choco-copy {
+    width: 100%;
+    min-width: 0;
+    padding: 8px 0 0;
+    text-align: center;
+  }
+
+  .choco-title {
+    font-size: clamp(38px, 10vw, 52px);
+    letter-spacing: -1.8px;
+    line-height: 1.05;
+  }
+
+  .choco-description {
+    max-width: 290px;
+    margin: 14px auto 18px;
+    font-size: 13px;
+  }
+
+  .choco-trust {
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .choco-art {
+    width: 100%;
+    min-width: 0;
+    min-height: 300px;
+    height: 300px;
+    flex: none;
+    overflow: hidden;
+  }
+
+  .choco-sunburst {
+    width: 230px;
+  }
+
+  .choco-orbit-one {
+    width: 240px;
+  }
+
+  .choco-orbit-two {
+    width: 190px;
+  }
+
+  .choco-product {
+    width: min(190px, 58vw);
+    margin-top: 0;
+  }
+
+  .choco-orbiting-sweets {
+    transform: scale(0.78);
+  }
+
+  .choco-caption {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .choco-bottom-liquid {
+    max-height: 70px;
+  }
+}
+
+@media (max-width: 380px) {
+  .choco-header {
+    padding: 14px 12px;
+  }
+
+  .choco-monogram {
+    font-size: 22px;
+  }
+
+  .choco-header-label {
+    font-size: 6px;
+    letter-spacing: 0.6px;
+  }
+
+  .choco-stage {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .choco-title {
+    font-size: 36px;
+    letter-spacing: -1.4px;
+  }
+
+  .choco-art {
+    min-height: 250px;
+    height: 250px;
+  }
+
+  .choco-product {
+    width: 165px;
+  }
+
+  .choco-footer {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+}
+
 
 .choco-sweet img {
 
